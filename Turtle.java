@@ -107,11 +107,9 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
             Turtle bob = new Turtle();
             bob.penColor(Color.yellow);
             bob.speed(10);
-
             bob.up();
             bob.setPosition(0, -200);
             bob.down();
-
             bob.left(90);
             bob.forward(200);
         }
